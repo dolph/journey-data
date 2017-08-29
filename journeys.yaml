@@ -1,0 +1,93 @@
+--- 
+journeys: 
+  - 
+    code-repo: "https://github.com/IBM/pixiedust-traffic-analysis"
+    deploy_to_bluemix: "False"
+    id: pixiedust-traffic-analysis
+    journey-page: "https://developer.ibm.com/code/journey/analyze-san-francisco-traffic-data-with-ibm-pixiedust-and-data-science-experience/"
+    runtimes: []
+    services: 
+      - "Object Storage"
+      - "Apache Spark"
+  - 
+    code-repo: "https://github.com/IBM/starcraft2-replay-analysis"
+    deploy_to_bluemix: "False"
+    id: starcraft2-replay-analysis
+    journey-page: "https://developer.ibm.com/code/journey/analyze-starcraft-ii-replays-with-jupyter-notebooks"
+    runtimes: []
+    services: 
+      - "Object Storage"
+      - "Apache Spark"
+      - "Cloudant NoSQL DB"
+  - 
+    code-repo: "https://github.com/IBM/pixiedust-facebook-analysis"
+    deploy_to_bluemix: "False"
+    id: starcraft2-replay-analysis
+    journey-page: "https://developer.ibm.com/code/journey/discover-hidden-facebook-usage-insights"
+    runtimes: []
+    services: 
+      - "Object Storage"
+      - "Apache Spark"
+      - "Tone Analyzer"
+      - "Natural Language Understanding"
+      - "Visual Recognition"
+  - 
+    code-repo: "https://github.com/IBM/powerai-notebook"
+    deploy_to_bluemix: "False"
+    id: powerai-notebook
+    journey-page: "https://developer.ibm.com/code/journey/accelerate-training-of-machine-learning-algorithms"
+    runtimes: []
+    services: []
+  - 
+    code-repo: "https://github.com/IBM/powerai-transfer-learning"
+    deploy_to_bluemix: "False"
+    id: powerai-notebook
+    journey-page: "https://developer.ibm.com/code/journey/image-recognition-training-powerai-notebooks"
+    runtimes: []
+    services: []
+  - 
+    code-repo: "https://github.com/IBM/watson-online-store"
+    deploy_to_bluemix: "True"
+    id: watson-online-store
+    journey-page: "https://developer.ibm.com/code/journey/create-cognitive-retail-chatbot"
+    runtimes: 
+      - "Cloud Foundry"
+    services: 
+      - "Cloudant NoSQL DB"
+      - Conversation
+      - Discovery
+  - 
+    code-repo: "https://github.com/IBM/watson-banking-chatbot"
+    deploy_to_bluemix: "True"
+    id: watson-banking-chatbot
+    journey-page: "https://developer.ibm.com/code/journey/create-cognitive-banking-chatbot"
+    runtimes: 
+      - "Cloud Foundry"
+    services: 
+      - Conversation
+      - "Tone Analyzer"
+      - "Natural Language Understanding"
+      - Discovery
+  - 
+    code-repo: "https://github.com/IBM/vr-speech-sandbox-vive"
+    deploy_to_bluemix: "False"
+    id: vr-speech-sandbox-vive
+    journey-page: "https://developer.ibm.com/code/journey/create-a-virtual-reality-speech-sandbox"
+    runtimes: []
+    services: 
+      - Conversation
+      - Speech-to-Text
+      - Text-to-Speech
+  - 
+    code-repo: "https://github.com/IBM/tjbot-sports-buddy"
+    deploy_to_bluemix: "True"
+    id: tjbot-sports-buddy
+    journey-page: "https://developer.ibm.com/code/journey/sports-buddy-tjbot-watson-discovery"
+    runtimes: 
+      - "Cloud Foundry"
+    services: 
+      - Conversation
+      - Discovery
+      - Text-to-Speech
+      - Speech-to-Text
+      - "Tone Analyzer"
