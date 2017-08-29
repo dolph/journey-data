@@ -22,7 +22,7 @@ journeys:
   - 
     code-repo: "https://github.com/IBM/pixiedust-facebook-analysis"
     deploy_to_bluemix: "False"
-    id: starcraft2-replay-analysis
+    id: pixiedust-facebook-analysis
     journey-page: "https://developer.ibm.com/code/journey/discover-hidden-facebook-usage-insights"
     runtimes: []
     services: 
