@@ -1,0 +1,7 @@
+language: "python"
+python:
+   - "3.6"
+install:
+   - pip install yamllint
+script:
+   - yamllint -d "{extends: default, rules: {line-length: {max: 200}}}" journeys.yaml
