@@ -1,121 +1,121 @@
---- 
-journeys: 
-  - 
+---
+journeys:
+  -
     code_repo: "https://github.com/IBM/pixiedust-traffic-analysis"
     deploy_to_bluemix: "False"
     id: pixiedust-traffic-analysis
     journey_page: "https://developer.ibm.com/code/journey/analyze-san-francisco-traffic-data-with-ibm-pixiedust-and-data-science-experience/"
     runtimes: []
-    services: 
+    services:
       - "Object Storage"
       - "Apache Spark"
-  - 
+  -
     code_repo: "https://github.com/IBM/starcraft2-replay-analysis"
     deploy_to_bluemix: "False"
     id: starcraft2-replay-analysis
     journey_page: "https://developer.ibm.com/code/journey/analyze-starcraft-ii-replays-with-jupyter-notebooks"
     runtimes: []
-    services: 
+    services:
       - "Object Storage"
       - "Apache Spark"
       - "Cloudant NoSQL DB"
-  - 
+  -
     code_repo: "https://github.com/IBM/pixiedust-facebook-analysis"
     deploy_to_bluemix: "False"
     id: pixiedust-facebook-analysis
     journey_page: "https://developer.ibm.com/code/journey/discover-hidden-facebook-usage-insights"
     runtimes: []
-    services: 
+    services:
       - "Object Storage"
       - "Apache Spark"
       - "Tone Analyzer"
       - "Natural Language Understanding"
       - "Visual Recognition"
-  - 
+  -
     code_repo: "https://github.com/IBM/powerai-notebook"
     deploy_to_bluemix: "False"
     id: powerai-notebook
     journey_page: "https://developer.ibm.com/code/journey/accelerate-training-of-machine-learning-algorithms"
     runtimes: []
     services: []
-  - 
+  -
     code_repo: "https://github.com/IBM/powerai-transfer-learning"
     deploy_to_bluemix: "False"
     id: powerai-notebook
     journey_page: "https://developer.ibm.com/code/journey/image-recognition-training-powerai-notebooks"
     runtimes: []
     services: []
-  - 
+  -
     code_repo: "https://github.com/IBM/watson-online-store"
     deploy_to_bluemix: "True"
     id: watson-online-store
     journey_page: "https://developer.ibm.com/code/journey/create-cognitive-retail-chatbot"
-    runtimes: 
+    runtimes:
       - "Cloud Foundry"
-    services: 
+    services:
       - "Cloudant NoSQL DB"
       - Conversation
       - Discovery
-  - 
+  -
     code_repo: "https://github.com/IBM/watson-banking-chatbot"
     deploy_to_bluemix: "True"
     id: watson-banking-chatbot
     journey_page: "https://developer.ibm.com/code/journey/create-cognitive-banking-chatbot"
-    runtimes: 
+    runtimes:
       - "Cloud Foundry"
-    services: 
+    services:
       - Conversation
       - "Tone Analyzer"
       - "Natural Language Understanding"
       - Discovery
-  - 
+  -
     code_repo: "https://github.com/IBM/vr-speech-sandbox-vive"
     deploy_to_bluemix: "False"
     id: vr-speech-sandbox-vive
     journey_page: "https://developer.ibm.com/code/journey/create-a-virtual-reality-speech-sandbox"
     runtimes: []
-    services: 
+    services:
       - Conversation
       - Speech-to-Text
       - Text-to-Speech
-  - 
+  -
     code_repo: "https://github.com/IBM/tjbot-sports-buddy"
     deploy_to_bluemix: "True"
     id: tjbot-sports-buddy
     journey_page: "https://developer.ibm.com/code/journey/sports-buddy-tjbot-watson-discovery"
-    runtimes: 
+    runtimes:
       - "Cloud Foundry"
-    services: 
+    services:
       - Conversation
       - Discovery
       - Text-to-Speech
       - Speech-to-Text
       - "Tone Analyzer"
-  - 
+  -
     code_repo: "https://github.com/IBM/watson-discovery-news"
     deploy_to_bluemix: "True"
     id: watson-discovery-news
     journey_page: "https://developer.ibm.com/code/journey/create-a-cognitive-news-search-app"
-    runtimes: 
+    runtimes:
       - "Cloud Foundry"
-    services: 
+    services:
       - Discovery
-  - 
+  -
     code_repo: "https://github.com/IBM/watson-discovery-analyze-data-breaches"
     deploy_to_bluemix: "True"
     id: watson-discovery-analyze-data-breaches
     journey_page: "https://developer.ibm.com/code/journey/import-enrich-and-gain-insight-from-data"
-    runtimes: 
+    runtimes:
       - "Cloud Foundry"
-    services: 
+    services:
       - Discovery
-  - 
+  -
     code_repo: "https://github.com/IBM/watson-discovery-news-alerting"
     deploy_to_bluemix: "False"
     id: watson-discovery-news-alerting
     journey_page: "https://developer.ibm.com/code/journey/create-cognitive-news-alerting-app"
-    runtimes: 
+    runtimes:
       - "Cloud Foundry"
-    services: 
+    services:
       - "Cloudant NoSQL DB"
       - Discovery
