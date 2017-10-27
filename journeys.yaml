@@ -1,121 +1,753 @@
 ---
-journeys:
-  -
-    code_repo: "https://github.com/IBM/pixiedust-traffic-analysis"
-    deploy_to_bluemix: "False"
-    id: pixiedust-traffic-analysis
-    journey_page: "https://developer.ibm.com/code/journey/analyze-san-francisco-traffic-data-with-ibm-pixiedust-and-data-science-experience/"
-    runtimes: []
-    services:
-      - "Object Storage"
-      - "Apache Spark"
-  -
-    code_repo: "https://github.com/IBM/starcraft2-replay-analysis"
-    deploy_to_bluemix: "False"
-    id: starcraft2-replay-analysis
-    journey_page: "https://developer.ibm.com/code/journey/analyze-starcraft-ii-replays-with-jupyter-notebooks"
-    runtimes: []
-    services:
-      - "Object Storage"
-      - "Apache Spark"
-      - "Cloudant NoSQL DB"
-  -
-    code_repo: "https://github.com/IBM/pixiedust-facebook-analysis"
-    deploy_to_bluemix: "False"
-    id: pixiedust-facebook-analysis
-    journey_page: "https://developer.ibm.com/code/journey/discover-hidden-facebook-usage-insights"
-    runtimes: []
-    services:
-      - "Object Storage"
-      - "Apache Spark"
-      - "Tone Analyzer"
-      - "Natural Language Understanding"
-      - "Visual Recognition"
-  -
-    code_repo: "https://github.com/IBM/powerai-notebook"
-    deploy_to_bluemix: "False"
-    id: powerai-notebook
-    journey_page: "https://developer.ibm.com/code/journey/accelerate-training-of-machine-learning-algorithms"
-    runtimes: []
-    services: []
-  -
-    code_repo: "https://github.com/IBM/powerai-transfer-learning"
-    deploy_to_bluemix: "False"
-    id: powerai-notebook
-    journey_page: "https://developer.ibm.com/code/journey/image-recognition-training-powerai-notebooks"
-    runtimes: []
-    services: []
-  -
-    code_repo: "https://github.com/IBM/watson-online-store"
-    deploy_to_bluemix: "True"
-    id: watson-online-store
-    journey_page: "https://developer.ibm.com/code/journey/create-cognitive-retail-chatbot"
-    runtimes:
-      - "Cloud Foundry"
-    services:
-      - "Cloudant NoSQL DB"
-      - Conversation
-      - Discovery
-  -
-    code_repo: "https://github.com/IBM/watson-banking-chatbot"
-    deploy_to_bluemix: "True"
-    id: watson-banking-chatbot
-    journey_page: "https://developer.ibm.com/code/journey/create-cognitive-banking-chatbot"
-    runtimes:
-      - "Cloud Foundry"
-    services:
-      - Conversation
-      - "Tone Analyzer"
-      - "Natural Language Understanding"
-      - Discovery
-  -
-    code_repo: "https://github.com/IBM/vr-speech-sandbox-vive"
-    deploy_to_bluemix: "False"
-    id: vr-speech-sandbox-vive
-    journey_page: "https://developer.ibm.com/code/journey/create-a-virtual-reality-speech-sandbox"
-    runtimes: []
-    services:
-      - Conversation
-      - Speech-to-Text
-      - Text-to-Speech
-  -
-    code_repo: "https://github.com/IBM/tjbot-sports-buddy"
-    deploy_to_bluemix: "True"
-    id: tjbot-sports-buddy
-    journey_page: "https://developer.ibm.com/code/journey/sports-buddy-tjbot-watson-discovery"
-    runtimes:
-      - "Cloud Foundry"
-    services:
-      - Conversation
-      - Discovery
-      - Text-to-Speech
-      - Speech-to-Text
-      - "Tone Analyzer"
-  -
-    code_repo: "https://github.com/IBM/watson-discovery-news"
-    deploy_to_bluemix: "True"
-    id: watson-discovery-news
-    journey_page: "https://developer.ibm.com/code/journey/create-a-cognitive-news-search-app"
-    runtimes:
-      - "Cloud Foundry"
-    services:
-      - Discovery
-  -
-    code_repo: "https://github.com/IBM/watson-discovery-analyze-data-breaches"
-    deploy_to_bluemix: "True"
-    id: watson-discovery-analyze-data-breaches
-    journey_page: "https://developer.ibm.com/code/journey/import-enrich-and-gain-insight-from-data"
-    runtimes:
-      - "Cloud Foundry"
-    services:
-      - Discovery
-  -
-    code_repo: "https://github.com/IBM/watson-discovery-news-alerting"
-    deploy_to_bluemix: "False"
-    id: watson-discovery-news-alerting
-    journey_page: "https://developer.ibm.com/code/journey/create-cognitive-news-alerting-app"
-    runtimes:
-      - "Cloud Foundry"
-    services:
-      - "Cloudant NoSQL DB"
-      - Discovery
+assemble-a-pizza-ordering-chatbot-dialog:
+  Category: CDA
+  PWG: Conversation
+  Journey URL: https://developer.ibm.com/code/journey/assemble-a-pizza-ordering-chatbot-dialog/
+  Journey Title: Assemble a pizza-ordering chatbot dialog
+  Runtimes: CloudFoundry
+  Services: Conversation
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+create-a-virtual-reality-speech-sandbox:
+  Category: CDA
+  PWG: Conversation
+  Journey URL: https://developer.ibm.com/code/journey/create-a-virtual-reality-speech-sandbox/
+  Journey Title: Create a virtual reality speech sandbox
+  Runtimes: ''
+  Services: Conversation, Speech-to-Text, Text-to-Speech
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+create-an-alexa-skill-with-serverless-and-a-conversation:
+  Category: CDA
+  PWG: Conversation
+  Journey URL: https://developer.ibm.com/code/journey/create-an-alexa-skill-with-serverless-and-a-conversation/
+  Journey Title: Create an Alexa skill with serverless and a conversation
+  Runtimes: OpenWhisk
+  Services: Conversation, Redis, Weather Company
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+create-cognitive-banking-chatbot:
+  Category: CDA
+  PWG: Conversation
+  Journey URL: https://developer.ibm.com/code/journey/create-cognitive-banking-chatbot/
+  Journey Title: Create a cognitive banking chatbot
+  Runtimes: CloudFoundry
+  Services: Conversation, Discovery, Tone Analyzer, Natural Language Understanding
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+create-cognitive-retail-chatbot:
+  Category: CDA
+  PWG: Conversation
+  Journey URL: https://developer.ibm.com/code/journey/create-cognitive-retail-chatbot/
+  Journey Title: Create a cognitive retail chatbot
+  Runtimes: CloudFoundry
+  Services: Cloudant, Conversation, Discovery
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+sports-buddy-tjbot-watson-discovery:
+  Category: CDA
+  PWG: Conversation
+  Journey URL: https://developer.ibm.com/code/journey/sports-buddy-tjbot-watson-discovery/
+  Journey Title: Create a sports buddy with TJBot and Watson
+  Runtimes: ''
+  Services: Conversation, Discovery, Text-to-Speech, Speech-to-Text, Tone Analyzer
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+analyze-san-francisco-traffic-data-with-ibm-pixiedust-and-data-science-experience:
+  Category: CDA
+  PWG: Data Science
+  Journey URL: https://developer.ibm.com/code/journey/analyze-san-francisco-traffic-data-with-ibm-pixiedust-and-data-science-experience/
+  Journey Title: Analyze traffic data from the city of San Francisco
+  Runtimes: Data Science Experience
+  Services: Apache Spark, Object Store
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+analyze-starcraft-ii-replays-with-jupyter-notebooks:
+  Category: CDA
+  PWG: Data Science
+  Journey URL: https://developer.ibm.com/code/journey/analyze-starcraft-ii-replays-with-jupyter-notebooks/
+  Journey Title: Analyze Starcraft II replays with Jupyter Notebooks
+  Runtimes: Data Science Experience
+  Services: Cloudant, Object Storage
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+analyze-twitter-jupyter-notebooks:
+  Category: CDA
+  PWG: Data Science
+  Journey URL: https://developer.ibm.com/code/journey/analyze-twitter-jupyter-notebooks/
+  Journey Title: Analyze Tweets with Jupyter Notebooks
+  Runtimes: Data Science Experience
+  Services: Apache Spark, Object Store, Db2 on Cloud
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+discover-hidden-facebook-usage-insights:
+  Category: CDA
+  PWG: Data Science
+  Journey URL: https://developer.ibm.com/code/journey/discover-hidden-facebook-usage-insights/
+  Journey Title: Discover hidden Facebook usage insights
+  Runtimes: Data Science Experience
+  Services: Tone Analyzer, Natural Language Understanding, Visual Recognition
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+extend-watson-text-classification:
+  Category: CDA
+  PWG: Data Science
+  Journey URL: https://developer.ibm.com/code/journey/extend-watson-text-classification/
+  Journey Title: Extend Watson text classification
+  Runtimes: Data Science Experience
+  Services: Natural Language Understanding, Apache Spark, Object Storage
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+orchestrate-data-science-workflows-using-node-red:
+  Category: CDA
+  PWG: Data Science
+  Journey URL: https://developer.ibm.com/code/journey/orchestrate-data-science-workflows-using-node-red/
+  Journey Title: Orchestrate data science workflows using Node-RED
+  Runtimes: Data Science Experience
+  Services: Apache Spark, Object Storage, Node SDK
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+watson-document-correlation:
+  Category: CDA
+  PWG: Data Science
+  Journey URL: https://developer.ibm.com/code/journey/watson-document-correlation/
+  Journey Title: Watson document correlation
+  Runtimes: Data Science Experience
+  Services: Natural Language Understanding, Apache Spark, Object Storage
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+create-a-cognitive-news-search-app:
+  Category: CDA
+  PWG: Discovery
+  Journey URL: https://developer.ibm.com/code/journey/create-a-cognitive-news-search-app/
+  Journey Title: 'Create a cognitive news search app '
+  Runtimes: CloudFoundry
+  Services: Discovery
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+create-cognitive-news-alerting-app:
+  Category: CDA
+  PWG: Discovery
+  Journey URL: https://developer.ibm.com/code/journey/create-cognitive-news-alerting-app/
+  Journey Title: 'Create a cognitive news alerting app '
+  Runtimes: CloudFoundry
+  Services: Discovery, Cloudant
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+import-enrich-and-gain-insight-from-data:
+  Category: CDA
+  PWG: Discovery
+  Journey URL: https://developer.ibm.com/code/journey/import-enrich-and-gain-insight-from-data/
+  Journey Title: Mine enterprise data for insight with cognitive technology
+  Runtimes: CloudFoundry
+  Services: Discovery
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+develop-graph-database-app-using-janusgraph:
+  Category: CDA
+  PWG: Open Tech
+  Journey URL: https://developer.ibm.com/code/journey/develop-graph-database-app-using-janusgraph/
+  Journey Title: Develop a graph database app using JanusGraph
+  Runtimes: ''
+  Services: ''
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+tensorflow-hangul-translation:
+  Category: CDA
+  PWG: Open Tech
+  Journey URL: https://developer.ibm.com/code/journey/tensorflow-hangul-translation
+  Journey Title: Tensorflow Hangul Translation
+  Runtimes: ''
+  Services: ''
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+accelerate-training-of-machine-learning-algorithms:
+  Category: CDA
+  PWG: PowerAI
+  Journey URL: https://developer.ibm.com/code/journey/accelerate-training-of-machine-learning-algorithms/
+  Journey Title: Accelerate training of machine learning algorithms
+  Runtimes: ''
+  Services: ''
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+image-recognition-training-powerai-notebooks:
+  Category: CDA
+  PWG: PowerAI
+  Journey URL: https://developer.ibm.com/code/journey/image-recognition-training-powerai-notebooks/
+  Journey Title: Image recognition training with PowerAI notebooks
+  Runtimes: ''
+  Services: ''
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+create-a-recommender:
+  Category: CDA
+  PWG: Spark
+  Journey URL: https://developer.ibm.com/code/journey/create-a-recommender
+  Journey Title: Create a recommender
+  Runtimes: ''
+  Services: ''
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+create-an-android-calorie-counter-app:
+  Category: CDA
+  PWG: Visual Recognition
+  Journey URL: https://developer.ibm.com/code/journey/create-an-android-calorie-counter-app/
+  Journey Title: Create an Android calorie-counter app
+  Runtimes: CloudFoundry
+  Services: Visual Recognition
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+enrich-multi-media-files-using-ibm-watson:
+  Category: CDA
+  PWG: Visual Recognition
+  Journey URL: https://developer.ibm.com/code/journey/enrich-multi-media-files-using-ibm-watson/
+  Journey Title: Enrich multimedia files using services
+  Runtimes: CloudFoundry
+  Services: Visual Recognition, Natural Language Understanding, Speech-to-Text, Tone
+    Analyzer
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+create-hybrid-cloud-api-connect-secure-gateway:
+  Category: CI
+  PWG: API Connect
+  Journey URL: https://developer.ibm.com/code/journey/create-hybrid-cloud-api-connect-secure-gateway/
+  Journey Title: Create a hybrid cloud with API Connect and Secure Gateway
+  Runtimes: ''
+  Services: API Connect, Secure Gateway
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+create-rest-apis-using-loopback:
+  Category: CI
+  PWG: API Connect
+  Journey URL: https://developer.ibm.com/code/journey/create-rest-apis-using-loopback/
+  Journey Title: Create REST APIs using LoopBack
+  Runtimes: CloudFoundry
+  Services: Compose for MongoDB, Loopback
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+unlock-enterprise-data-using-apis:
+  Category: CI
+  PWG: API Connect
+  Journey URL: https://developer.ibm.com/code/journey/unlock-enterprise-data-using-apis/
+  Journey Title: Unlock Enterprise data using APIs
+  Runtimes: CloudFoundry, OpenWhisk
+  Services: ''
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+deploy-a-scalable-apache-cassandra-database-on-kubernetes:
+  Category: CI
+  PWG: Containers
+  Journey URL: https://developer.ibm.com/code/journey/deploy-a-scalable-apache-cassandra-database-on-kubernetes/
+  Journey Title: Deploy a scalable Apache Cassandra database on Kubernetes
+  Runtimes: Kubernetes
+  Services: ''
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+deploy-spring-boot-microservices-on-kubernetes:
+  Category: CI
+  PWG: Containers
+  Journey URL: https://developer.ibm.com/code/journey/deploy-spring-boot-microservices-on-kubernetes/
+  Journey Title: Deploy Spring Boot microservices on Kubernetes
+  Runtimes: Kubernetes, OpenWhisk
+  Services: ''
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+implement-computer-vision-playerunknowns-battlegrounds-live-streams:
+  Category: CI
+  PWG: Containers
+  Journey URL: https://developer.ibm.com/code/journey/implement-computer-vision-playerunknowns-battlegrounds-live-streams/
+  Journey Title: Implement computer vision for PlayerUnknown’s Battlegrounds live
+    streams
+  Runtimes: Kubernetes
+  Services: ''
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+manage-microservices-traffic-using-istio:
+  Category: CI
+  PWG: Containers
+  Journey URL: https://developer.ibm.com/code/journey/manage-microservices-traffic-using-istio/
+  Journey Title: Manage microservices traffic using Istio
+  Runtimes: Kubernetes
+  Services: ''
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+run-gitlab-kubernetes:
+  Category: CI
+  PWG: Containers
+  Journey URL: https://developer.ibm.com/code/journey/run-gitlab-kubernetes/
+  Journey Title: Run GitLab on Kubernetes
+  Runtimes: Kubernetes
+  Services: Compose for PostgreSQL
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+scalable-wordpress-on-kubernetes:
+  Category: CI
+  PWG: Containers
+  Journey URL: https://developer.ibm.com/code/journey/scalable-wordpress-on-kubernetes/
+  Journey Title: Deploy a scalable WordPress implementation on Kubernetes
+  Runtimes: Kubernetes
+  Services: Compose for MySQL
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+deploy-java-microservices-on-kubernetes-with-polyglot-support:
+  Category: CI
+  PWG: J2EE
+  Journey URL: https://developer.ibm.com/code/journey/deploy-java-microservices-on-kubernetes-with-polyglot-support/
+  Journey Title: Deploy Java microservices on Kubernetes with polyglot support
+  Runtimes: Kubernetes
+  Services: ''
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+deploy-microprofile-java-microservices-on-kubernetes:
+  Category: CI
+  PWG: J2EE
+  Journey URL: https://developer.ibm.com/code/journey/deploy-microprofile-java-microservices-on-kubernetes/
+  Journey Title: Deploy MicroProfile-based Java microservices on Kubernetes
+  Runtimes: Kubernetes
+  Services: ''
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+make-java-microservices-resilient-with-istio:
+  Category: CI
+  PWG: J2EE
+  Journey URL: https://developer.ibm.com/code/journey/make-java-microservices-resilient-with-istio/
+  Journey Title: Make Java microservices resilient with Istio
+  Runtimes: Kubernetes
+  Services: ''
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+automatically-scale-to-handle-peaks-in-banking-transaction-demand:
+  Category: CI
+  PWG: Serverless
+  Journey URL: https://developer.ibm.com/code/journey/automatically-scale-to-handle-peaks-in-banking-transaction-demand/
+  Journey Title: Automatically scale to handle peaks in banking transaction demand
+  Runtimes: OpenWhisk
+  Services: Cloudant, Object Store, SendGrid
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+build-serverless-api-handlers:
+  Category: CI
+  PWG: Serverless
+  Journey URL: https://developer.ibm.com/code/journey/build-serverless-api-handlers/
+  Journey Title: Build serverless API handlers
+  Runtimes: OpenWhisk
+  Services: Compose for MySQL
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+make-apps-smarter-with-serverless:
+  Category: CI
+  PWG: Serverless
+  Journey URL: https://developer.ibm.com/code/journey/make-apps-smarter-with-serverless/
+  Journey Title: Make apps smarter with serverless
+  Runtimes: OpenWhisk
+  Services: API Connect
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+respond-messages-handle-streams:
+  Category: CI
+  PWG: Serverless
+  Journey URL: https://developer.ibm.com/code/journey/respond-messages-handle-streams/
+  Journey Title: Respond to Messages and Handle Streams
+  Runtimes: OpenWhisk
+  Services: MessageHub
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+apply-machine-learning-to-financial-risk-management:
+  Category: CI
+  PWG: z Systems
+  Journey URL: https://developer.ibm.com/code/journey/apply-machine-learning-to-financial-risk-management/
+  Journey Title: Apply machine learning to financial risk management
+  Runtimes: ''
+  Services: ''
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+boost-insight-by-moving-analytics-closer-to-data:
+  Category: CI
+  PWG: z Systems
+  Journey URL: https://developer.ibm.com/code/journey/boost-insight-by-moving-analytics-closer-to-data/
+  Journey Title: Boost insight by moving analytics closer to data
+  Runtimes: ''
+  Services: ''
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+create-financial-applications-using-apis-on-mainframe:
+  Category: CI
+  PWG: z Systems
+  Journey URL: https://developer.ibm.com/code/journey/create-financial-applications-using-apis-on-mainframe/
+  Journey Title: Create financial applications using APIs on mainframe
+  Runtimes: ''
+  Services: ''
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+run-blockchain-technology-on-a-linux-mainframe:
+  Category: CI
+  PWG: z Systems
+  Journey URL: https://developer.ibm.com/code/journey/run-blockchain-technology-on-a-linux-mainframe/
+  Journey Title: Run blockchain technology on a Linux mainframe
+  Runtimes: ''
+  Services: ''
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+run-cloud-native-workloads-on-linux-mainframe:
+  Category: CI
+  PWG: z Systems
+  Journey URL: https://developer.ibm.com/code/journey/run-cloud-native-workloads-on-linux-mainframe/
+  Journey Title: Run cloud-native workloads on a Linux mainframe
+  Runtimes: ''
+  Services: ''
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+transform-the-retail-customer-experience-with-apis-on-a-mainframe:
+  Category: CI
+  PWG: z Systems
+  Journey URL: https://developer.ibm.com/code/journey/transform-the-retail-customer-experience-with-apis-on-a-mainframe/
+  Journey Title: Transform the retail customer experience with APIs on a mainframe
+  Runtimes: ''
+  Services: ''
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+turn-your-mainframe-into-an-api-powerhouse:
+  Category: CI
+  PWG: z Systems
+  Journey URL: https://developer.ibm.com/code/journey/turn-your-mainframe-into-an-api-powerhouse/
+  Journey Title: Turn your mainframe into an API powerhouse
+  Runtimes: ''
+  Services: ''
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+build-a-blockchain-network:
+  Category: ETI
+  PWG: Blockchain
+  Journey URL: https://developer.ibm.com/code/journey/build-a-blockchain-network/
+  Journey Title: Build a blockchain network
+  Runtimes: ''
+  Services: ''
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+create-a-to-do-list-app-using-blockchain:
+  Category: ETI
+  PWG: Blockchain
+  Journey URL: https://developer.ibm.com/code/journey/create-a-to-do-list-app-using-blockchain/
+  Journey Title: Create a to-do list app using blockchain
+  Runtimes: ''
+  Services: ''
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+create-and-execute-blockchain-smart-contracts:
+  Category: ETI
+  PWG: Blockchain
+  Journey URL: https://developer.ibm.com/code/journey/create-and-execute-blockchain-smart-contracts/
+  Journey Title: Create and execute blockchain smart contracts
+  Runtimes: ''
+  Services: ''
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+decentralized-energy-hyperledger-composer:
+  Category: ETI
+  PWG: Blockchain
+  Journey URL: https://developer.ibm.com/code/journey/decentralized-energy-hyperledger-composer/
+  Journey Title: Decentralized energy with Hyperledger Composer
+  Runtimes: ''
+  Services: ''
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+deploy-an-asset-transfer-app-using-blockchain:
+  Category: ETI
+  PWG: Blockchain
+  Journey URL: https://developer.ibm.com/code/journey/deploy-an-asset-transfer-app-using-blockchain/
+  Journey Title: Deploy an asset-transfer app using blockchain
+  Runtimes: ''
+  Services: ''
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+implement-fda-food-supplier-verification-program-on-hyperledger-composer:
+  Category: ETI
+  PWG: Blockchain
+  Journey URL: https://developer.ibm.com/code/journey/implement-fda-food-supplier-verification-program-on-hyperledger-composer/
+  Journey Title: Model FDA Foreign Supplier Verification Program requirements
+  Runtimes: ''
+  Services: ''
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+construct-a-socially-responsible-investment-portfolio:
+  Category: ETI
+  PWG: FinTech
+  Journey URL: https://developer.ibm.com/code/journey/construct-a-socially-responsible-investment-portfolio/
+  Journey Title: Construct a Socially Responsible Investment Portfolio
+  Runtimes: CloudFoundry
+  Services: CloudFoundry, Investment Portfolio, Portfolio Optimization
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+create-a-stress-test-app-for-investment-portfolios:
+  Category: ETI
+  PWG: FinTech
+  Journey URL: https://developer.ibm.com/code/journey/create-a-stress-test-app-for-investment-portfolios/
+  Journey Title: Create a stress-test app for investment portfolios
+  Runtimes: CloudFoundry
+  Services: Investment Portfolio, Predictive Market Scenarios, Simulated Instrument
+    Analytics
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+create-an-investment-management-chatbot:
+  Category: ETI
+  PWG: FinTech
+  Journey URL: https://developer.ibm.com/code/journey/create-an-investment-management-chatbot/
+  Journey Title: Create an investment management chatbot
+  Runtimes: CloudFoundry
+  Services: Conversation, Cloudant, Investment Portfolio, Simulated Instrument Analytics
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+integrate-a-financial-investment-portfolio:
+  Category: ETI
+  PWG: FinTech
+  Journey URL: https://developer.ibm.com/code/journey/integrate-a-financial-investment-portfolio/
+  Journey Title: Integrate a financial investment portfolio
+  Runtimes: CloudFoundry
+  Services: Investment Portfolio
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+build-monitor-iot-driven-conveyor-belt:
+  Category: ETI
+  PWG: 'IoT '
+  Journey URL: https://developer.ibm.com/code/journey/build-monitor-iot-driven-conveyor-belt/
+  Journey Title: Build and monitor your own IoT-driven conveyor belt
+  Runtimes: IoT Platform
+  Services: ''
+  Code Repo: https://github.com/IBM/guide-conveyor-simulator
+  Youtube Link: https://www.youtube.com/watch?v=XjZ-p9Y1DBI
+  Deploy to Bluemix: true
+  Free Tier Friendly: true
+cloud-based-air-traffic-control-application:
+  Category: ETI
+  PWG: 'IoT '
+  Journey URL: https://developer.ibm.com/code/journey/cloud-based-air-traffic-control-application/
+  Journey Title: Correlate flight and weather data in augmented reality
+  Runtimes: IoT Platform
+  Services: Weather Company Data, Streaming Analytics
+  Code Repo: https://github.com/IBM/air-traffic-control
+  Youtube Link: ''
+  Deploy to Bluemix: false
+  Free Tier Friendly: false
+detect-change-points-in-iot-sensor-data:
+  Category: ETI
+  PWG: 'IoT '
+  Journey URL: https://developer.ibm.com/code/journey/detect-change-points-in-iot-sensor-data/
+  Journey Title: Detect change points in IoT sensor data
+  Runtimes: Data Science Experience
+  Services: Object Store, Apache Spark, Node SDK, DB2 on Cloud
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+detect-voltage-anomalies-in-household-iot-devices:
+  Category: ETI
+  PWG: 'IoT '
+  Journey URL: https://developer.ibm.com/code/journey/detect-voltage-anomalies-in-household-iot-devices/
+  Journey Title: Detect voltage anomalies in household IoT devices
+  Runtimes: IoT Platform
+  Services: Cloudant, Node SDK
+  Code Repo: https://github.com/IBM/CognitiveIoT
+  Youtube Link: https://www.youtube.com/watch?v=FX5qN2iOgV0
+  Deploy to Bluemix: true
+  Free Tier Friendly: true
+develop-an-iot-app-with-node-red-and-watson/:
+  Category: ETI
+  PWG: 'IoT '
+  Journey URL: https://developer.ibm.com/code/journey/develop-an-iot-app-with-node-red-and-watson/
+  Journey Title: Develop an IoT app with Node-RED and Watson
+  Runtimes: IoT Platform
+  Services: Cloudant, Node SDK, Availability Monitoring
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+implement-voice-controls-for-serverless-home-automation-hub:
+  Category: ETI
+  PWG: 'IoT '
+  Journey URL: https://developer.ibm.com/code/journey/implement-voice-controls-for-serverless-home-automation-hub/
+  Journey Title: Implement voice controls for a serverless home automation hub
+  Runtimes: OpenWhisk, IoT Platform
+  Services: Conversation, Speech-to-Text
+  Code Repo: https://github.com/IBM/serverless-home-automation
+  Youtube Link: https://www.youtube.com/watch?v=1bW9BhhBqfM
+  Deploy to Bluemix: true
+  Free Tier Friendly: false
+power-smart-fridge:
+  Category: ETI
+  PWG: 'IoT '
+  Journey URL: https://developer.ibm.com/code/journey/power-smart-fridge/
+  Journey Title: Power your smart fridge to request replacement parts
+  Runtimes: OpenWhisk, IoT Platform
+  Services: Cloudant, SendGrid
+  Code Repo: https://github.com/IBM/openfridge
+  Youtube Link: https://www.youtube.com/watch?v=0Sl4rWZYo8w
+  Deploy to Bluemix: false
+  Free Tier Friendly: false
+robotic-calculations-and-inference-agent:
+  Category: ETI
+  PWG: 'IoT '
+  Journey URL: https://developer.ibm.com/code/journey/robotic-calculations-and-inference-agent/
+  Journey Title: Robotic Calculations and Inference Agent
+  Runtimes: Data Science Experience
+  Services: Cloudant, Object Storage, Apache Spark, Conversation
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+apply-cognitive-to-mobile-images-on-the-go:
+  Category: ETI
+  PWG: Swift
+  Journey URL: https://developer.ibm.com/code/journey/apply-cognitive-to-mobile-images-on-the-go/
+  Journey Title: Apply cognitive to mobile images on the go
+  Runtimes: CloudFoundry
+  Services: 'Mobile App ID, Weather Company Data, Object Storage, Visual Recognition,
+    Mobile Push Notifications '
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+build-a-cognitive-recommendation-app-with-swift:
+  Category: ETI
+  PWG: Swift
+  Journey URL: https://developer.ibm.com/code/journey/build-a-cognitive-recommendation-app-with-swift/
+  Journey Title: Build a cognitive recommendation app with Swift
+  Runtimes: CloudFoundry
+  Services: Conversation, Natural Language Understanding, Speech-to-Text, Text-to-Speech
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+build-an-enterprise-swift-app-using-services:
+  Category: ETI
+  PWG: Swift
+  Journey URL: https://developer.ibm.com/code/journey/build-an-enterprise-swift-app-using-services/
+  Journey Title: Build an enterprise Swift app using services
+  Runtimes: CloudFoundry
+  Services: Alert Notification, Auto-Scaling
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
+use-swift-interpret-unstructured-data-hacker-news:
+  Category: ETI
+  PWG: Swift
+  Journey URL: https://developer.ibm.com/code/journey/use-swift-interpret-unstructured-data-hacker-news/
+  Journey Title: Use Swift to interpret unstructured data from Hacker News
+  Runtimes: CloudFoundry
+  Services: Natural Language Understanding
+  Code Repo: ''
+  Youtube Link: ''
+  Deploy to Bluemix: 
+  Free Tier Friendly: 
