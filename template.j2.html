@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Journey data</title>
+
+        <!-- JQuery -->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <!-- Normalize.css -->
+        <link rel="stylesheet" href="https://necolas.github.io/normalize.css/7.0.0/normalize.css">
+
+        <!-- DataTables -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.12/css/dataTables.bootstrap.min.css" rel="stylesheet"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.12/js/jquery.dataTables.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.12/js/dataTables.bootstrap.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $('#journeys').DataTable();
+            });
+        </script>
+    </head>
+
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <h1>Journey data</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <table id="journeys" class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Category</th>
+                                <th>PWG</th>
+                                <th>Title</th>
+                                <th>Code</th>
+                                <th>YouTube</th>
+                                <th>Journey</th>
+                                <th>OM&nbsp;Docs</th>
+                                <th>Publishing</th>
+                                <th>Runtimes</th>
+                                <th>Services</th>
+                                <th>Deploy to Bluemix</th>
+                                <th>Free Tier Friendly</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for journey in journeys %}
+                                <tr>
+                                    <td>{{ journey['Category'] }}</td>
+                                    <td>{{ journey['PWG'] }}</td>
+                                    <td>{{ journey['Journey Title'] }}</td>
+                                    <td><a href="{{ journey['Code Repo'] }}">Code</a></td>
+                                    <td><a href="{{ journey['Youtube Link'] }}">YouTube</a></td>
+                                    <td><a href="{{ journey['Journey URL'] }}">Journey</a></td>
+                                    <td><a href="{{ journey['OM Docs Repo'] }}">OM Docs</a></td>
+                                    <td><a href="{{ journey['Publishing Repo'] }}">Publishing</a></td>
+                                    <td>{{ journey['Runtimes'] }}</td>
+                                    <td>{{ journey['Services'] }}</td>
+                                    <td>{{ journey['Deploy to Bluemix'] }}</td>
+                                    <td>{{ journey['Free Tier Friendly'] }}</td>
+                                </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
