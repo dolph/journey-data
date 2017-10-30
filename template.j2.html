@@ -20,7 +20,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.12/js/jquery.dataTables.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.12/js/dataTables.bootstrap.min.js"></script>
         <script>
             $(document).ready(function() {
-                $('#journeys').DataTable();
+                $('#journeys').DataTable( {"pageLength": 100} );
             });
         </script>
     </head>
@@ -43,8 +43,10 @@
                                 <th>Code</th>
                                 <th>YouTube</th>
                                 <th>Journey</th>
+                                <!-- Put these back in when the data is filled in
                                 <th>OM&nbsp;Docs</th>
                                 <th>Publishing</th>
+                                -->
                                 <th>Runtimes</th>
                                 <th>Services</th>
                                 <th>Deploy to Bluemix</th>
@@ -60,8 +62,10 @@
                                     <td><a href="{{ journey['Code Repo'] }}">Code</a></td>
                                     <td><a href="{{ journey['Youtube Link'] }}">YouTube</a></td>
                                     <td><a href="{{ journey['Journey URL'] }}">Journey</a></td>
+                                    <!-- Put these back in when the data is filled in
                                     <td><a href="{{ journey['OM Docs Repo'] }}">OM Docs</a></td>
                                     <td><a href="{{ journey['Publishing Repo'] }}">Publishing</a></td>
+                                    -->
                                     <td>{{ journey['Runtimes'] }}</td>
                                     <td>{{ journey['Services'] }}</td>
                                     <td>{{ journey['Deploy to Bluemix'] }}</td>
