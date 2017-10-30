@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/stevemart/journey-data.svg?branch=master)](https://travis-ci.org/stevemart/journey-data)
+
 # A one-stop shop to visualize journey data and links
 
 You're probably only interested in this: [https://stevemart.github.io/journey-data/](https://stevemart.github.io/journey-data/)
