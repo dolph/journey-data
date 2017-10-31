@@ -23,7 +23,8 @@ journeys:
     OM Docs Repo: ''
     Publishing Repo: ''
     Runtimes: CloudFoundry
-    Services: Conversation, Discovery, Tone Analyzer, Natural Language Understanding
+    Services: >
+      Conversation, Discovery, Tone Analyzer, Natural Language Understanding
     Deploy to Bluemix: true
     Free Tier Friendly: true
   - slug: create-cognitive-retail-chatbot
@@ -49,7 +50,8 @@ journeys:
     OM Docs Repo: ''
     Publishing Repo: ''
     Runtimes: Hardware
-    Services: Conversation, Discovery, Text-to-Speech, Speech-to-Text, Tone Analyzer
+    Services: >
+      Conversation, Discovery, Text-to-Speech, Speech-to-Text, Tone Analyzer
     Deploy to Bluemix: false
     Free Tier Friendly: true
   - slug: create-a-virtual-reality-speech-sandbox
@@ -296,7 +298,8 @@ journeys:
     OM Docs Repo: ''
     Publishing Repo: ''
     Runtimes: CloudFoundry
-    Services: Visual Recognition, Natural Language Understanding, Speech-to-Text, Tone
+    Services: >
+      Visual Recognition, Natural Language Understanding, Speech-to-Text, Tone
       Analyzer
     Deploy to Bluemix: true
     Free Tier Friendly: false
@@ -381,8 +384,8 @@ journeys:
   - slug: implement-computer-vision-playerunknowns-battlegrounds-live-streams
     Category: CI
     PWG: Containers
-    Journey Title: Implement computer vision for PlayerUnknown’s Battlegrounds live
-      streams
+    Journey Title: >
+      Implement computer vision for PlayerUnknown’s Battlegrounds live streams
     Code Repo: https://github.com/IBM/rotisserie
     Youtube Link: ''
     Journey URL: https://developer.ibm.com/code/journey/implement-computer-vision-playerunknowns-battlegrounds-live-streams/
@@ -460,7 +463,8 @@ journeys:
   - slug: automatically-scale-to-handle-peaks-in-banking-transaction-demand
     Category: CI
     PWG: Serverless
-    Journey Title: Automatically scale to handle peaks in banking transaction demand
+    Journey Title: >
+      Automatically scale to handle peaks in banking transaction demand
     Code Repo: https://github.com/IBM/openchecks
     Youtube Link: https://www.youtube.com/watch?v=H9LNqKgznTg
     Journey URL: https://developer.ibm.com/code/journey/automatically-scale-to-handle-peaks-in-banking-transaction-demand/
@@ -577,7 +581,8 @@ journeys:
   - slug: transform-the-retail-customer-experience-with-apis-on-a-mainframe
     Category: CI
     PWG: z Systems
-    Journey Title: Transform the retail customer experience with APIs on a mainframe
+    Journey Title: >
+      Transform the retail customer experience with APIs on a mainframe
     Code Repo: https://github.com/IBM/increase-retail-revenues-leveraging-hybrid-cloud-on-mainframes
     Youtube Link: https://www.youtube.com/watch?v=DKv9P37NIjI
     Journey URL: https://developer.ibm.com/code/journey/transform-the-retail-customer-experience-with-apis-on-a-mainframe/
@@ -701,7 +706,8 @@ journeys:
     OM Docs Repo: ''
     Publishing Repo: ''
     Runtimes: CloudFoundry
-    Services: Investment Portfolio, Predictive Market Scenarios, Simulated Instrument
+    Services: >
+      Investment Portfolio, Predictive Market Scenarios, Simulated Instrument
       Analytics
     Deploy to Bluemix: true
     Free Tier Friendly: false
@@ -715,7 +721,9 @@ journeys:
     OM Docs Repo: ''
     Publishing Repo: ''
     Runtimes: CloudFoundry
-    Services: Conversation, Cloudant, Investment Portfolio, Simulated Instrument Analytics
+    Services: >
+      Conversation, Cloudant, Investment Portfolio, Simulated Instrument
+      Analytics
     Deploy to Bluemix: true
     Free Tier Friendly: false
   - slug: integrate-a-financial-investment-portfolio
@@ -845,8 +853,9 @@ journeys:
     OM Docs Repo: ''
     Publishing Repo: ''
     Runtimes: CloudFoundry
-    Services: 'Mobile App ID, Weather Company Data, Object Storage, Visual Recognition,
-      Mobile Push Notifications '
+    Services: >
+      Mobile App ID, Weather Company Data, Object Storage, Visual Recognition,
+      Mobile Push Notifications
     Deploy to Bluemix: true
     Free Tier Friendly: false
   - slug: build-a-cognitive-recommendation-app-with-swift
@@ -859,7 +868,9 @@ journeys:
     OM Docs Repo: ''
     Publishing Repo: ''
     Runtimes: CloudFoundry
-    Services: Conversation, Natural Language Understanding, Speech-to-Text, Text-to-Speech
+    Services: >
+      Conversation, Natural Language Understanding, Speech-to-Text,
+      Text-to-Speech
     Deploy to Bluemix: true
     Free Tier Friendly: true
   - slug: build-an-enterprise-swift-app-using-services
