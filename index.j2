@@ -71,7 +71,7 @@
                                     <td><a href="{{ journey['Publishing Repo'] }}">Publishing</a></td>
                                     -->
                                     <td>{{ journey['Runtimes'] }}</td>
-                                    <td>{{ journey['Services'] }}</td>
+                                    <td>{{ journey['Services'].strip() }}</td>
                                     <td style="color: {{ 'darkgreen' if journey['Deploy to Bluemix'] else 'darkred' }};">{{ '&#x2714;' if journey['Deploy to Bluemix'] else '&#x2718;' }}</td>
                                     <td style="color: {{ 'darkgreen' if journey['Free Tier Friendly'] else 'darkred' }};">{{ '&#x2714;' if journey['Free Tier Friendly'] else '&#x2718;' }}</td>
                                 </tr>
