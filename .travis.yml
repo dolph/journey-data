@@ -1,13 +1,15 @@
 ---
 language: "python"
 python:
-  - "3.6"
+  - "2.7"
 addons:
   apt:
     packages:
       - oracle-java8-set-default  # Java8 is required by html5validator
 install:
+  - pip install -r requirements.txt
   - pip install yamllint html5validator
 script:
   - yamllint --strict journeys.yaml
+  - ./test_render.sh
   - html5validator --show-warnings --root .
