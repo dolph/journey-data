@@ -9,5 +9,5 @@ addons:
 install:
   - pip install yamllint html5validator
 script:
-  - yamllint journeys.yaml
+  - yamllint --strict journeys.yaml
   - html5validator --show-warnings --root .
