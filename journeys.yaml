@@ -303,6 +303,19 @@ journeys:
       Analyzer
     Deploy to Bluemix: true
     Free Tier Friendly: false
+  - slug: build-a-recommender-with-apache-spark-and-elasticsearch
+    Category: CDA
+    PWG: Spark Technology Center
+    Journey Title: Build a recommender with Apache Spark and Elasticsearch
+    Code Repo: https://github.com/IBM/elasticsearch-spark-recommender
+    Youtube Link: https://www.youtube.com/watch?v=MJUO0CLNbB0
+    Journey URL: https://developer.ibm.com/code/patterns/build-a-recommender-with-apache-spark-and-elasticsearch/
+    OM Docs Repo: ''
+    Publishing Repo: ''
+    Runtimes: Data Science Experience
+    Services: Apache Spark
+    Deploy to Bluemix: false
+    Free Tier Friendly: true
   - slug: create-rest-apis-using-loopback
     Category: CI
     PWG: API Connect
