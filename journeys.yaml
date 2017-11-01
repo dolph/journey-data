@@ -77,7 +77,7 @@ journeys:
     OM Docs Repo: ''
     Publishing Repo: ''
     Runtimes: OpenWhisk
-    Services: Conversation, Redis, Weather Company
+    Services: Conversation, Compose for Redis, Weather Company
     Deploy to Bluemix: false
     Free Tier Friendly: false
   - slug: analyze-starcraft-ii-replays-with-jupyter-notebooks
