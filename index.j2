@@ -23,6 +23,13 @@
                 $('#journeys').DataTable( {"pageLength": 100} );
             });
         </script>
+        <style>
+            .icon {
+                height: 22px;
+                margin-top: -2px;
+                padding-top: -2px;
+            }
+        </style>
     </head>
 
     <body>
@@ -37,9 +44,9 @@
                                 <th>Category</th>
                                 <th>PWG</th>
                                 <th>Title</th>
-                                <th>Code</th>
-                                <th>YouTube</th>
-                                <th>Journey</th>
+                                <th><img class="icon" alt="GitHub" src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" /></th>
+                                <th><img class="icon" alt="YouTube video" src="https://www.youtube.com/yt/about/media/images/brand-resources/icons/YouTube_icon_full-color.svg" /></th>
+                                <th><img class="icon" alt="Published journey" src="https://s.w.org/about/images/logos/wordpress-logo-notext-rgb.png" /></th>
                                 <!-- Put these back in when the data is filled in
                                 <th>OM&nbsp;Docs</th>
                                 <th>Publishing</th>
@@ -56,21 +63,17 @@
                                     <td>{{ journey['Category'] }}</td>
                                     <td>{{ journey['PWG'] }}</td>
                                     <td>{{ journey['Journey Title'] }}</td>
-                                    <td><a href="{{ journey['Code Repo'] }}">Code</a></td>
-                                    {% if journey['Youtube Link'] != '' %}
-                                        <td><a href="{{ journey['Youtube Link'] }}">YouTube</a></td>
-                                    {% else %}
-                                        <td>-</td>
-                                    {% endif %}
-                                    <td><a href="{{ journey['Journey URL'] }}">Journey</a></td>
+                                    <td>{% if journey['Code Repo'] %}<a href="{{ journey['Code Repo'] }}"><img class="icon" alt="GitHub repository" src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" /></a>{% endif %}</td>
+                                    <td>{% if journey['Youtube Link'] %}<a href="{{ journey['Youtube Link'] }}"><img class="icon" alt="YouTube video" src="https://www.youtube.com/yt/about/media/images/brand-resources/icons/YouTube_icon_full-color.svg" /></a>{% endif %}</td>
+                                    <td>{% if journey['Journey URL'] %}<a href="{{ journey['Journey URL'] }}"><img class="icon" alt="Published journey" src="https://s.w.org/about/images/logos/wordpress-logo-notext-rgb.png" /></a>{% endif %}</td>
                                     <!-- Put these back in when the data is filled in
                                     <td><a href="{{ journey['OM Docs Repo'] }}">OM Docs</a></td>
                                     <td><a href="{{ journey['Publishing Repo'] }}">Publishing</a></td>
                                     -->
                                     <td>{{ journey['Runtimes'] }}</td>
-                                    <td>{{ journey['Services'] }}</td>
-                                    <td>{{ journey['Deploy to Bluemix'] }}</td>
-                                    <td>{{ journey['Free Tier Friendly'] }}</td>
+                                    <td>{{ journey['Services'].strip() }}</td>
+                                    <td style="color: {{ 'darkgreen' if journey['Deploy to Bluemix'] else 'darkred' }};">{{ '&#x2714;' if journey['Deploy to Bluemix'] else '&#x2718;' }}</td>
+                                    <td style="color: {{ 'darkgreen' if journey['Free Tier Friendly'] else 'darkred' }};">{{ '&#x2714;' if journey['Free Tier Friendly'] else '&#x2718;' }}</td>
                                 </tr>
                             {% endfor %}
                         </tbody>
