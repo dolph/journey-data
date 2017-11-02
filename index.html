@@ -27,7 +27,17 @@
             .icon {
                 height: 22px;
                 margin-top: -2px;
-                padding-top: -2px;
+            }
+            .icon.green,
+            .icon.red {
+                font-size: 22px;
+                line-height: 20px;
+            }
+            .icon.green {
+                color: darkgreen;
+            }
+            .icon.red {
+                color: darkred;
             }
         </style>
     </head>
@@ -72,8 +82,8 @@
                                     -->
                                     <td>CloudFoundry</td>
                                     <td>Conversation</td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
+                                    <td class="icon green">&#x2714;</td>
+                                    <td class="icon green">&#x2714;</td>
                                 </tr>
                             
                                 <tr>
@@ -89,8 +99,8 @@
                                     -->
                                     <td>CloudFoundry</td>
                                     <td>Conversation, Discovery, Tone Analyzer, Natural Language Understanding</td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
+                                    <td class="icon green">&#x2714;</td>
+                                    <td class="icon green">&#x2714;</td>
                                 </tr>
                             
                                 <tr>
@@ -106,8 +116,8 @@
                                     -->
                                     <td>CloudFoundry</td>
                                     <td>Cloudant, Conversation, Discovery</td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
+                                    <td class="icon green">&#x2714;</td>
+                                    <td class="icon green">&#x2714;</td>
                                 </tr>
                             
                                 <tr>
@@ -123,8 +133,8 @@
                                     -->
                                     <td>Hardware</td>
                                     <td>Conversation, Discovery, Text-to-Speech, Speech-to-Text, Tone Analyzer</td>
-                                    <td style="color: darkred;">&#x2718;</td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
+                                    <td class="icon red">&#x2718;</td>
+                                    <td class="icon green">&#x2714;</td>
                                 </tr>
                             
                                 <tr>
@@ -140,8 +150,8 @@
                                     -->
                                     <td>Hardware</td>
                                     <td>Conversation, Speech-to-Text, Text-to-Speech</td>
-                                    <td style="color: darkred;">&#x2718;</td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
+                                    <td class="icon red">&#x2718;</td>
+                                    <td class="icon green">&#x2714;</td>
                                 </tr>
                             
                                 <tr>
@@ -157,8 +167,8 @@
                                     -->
                                     <td>OpenWhisk</td>
                                     <td>Conversation, Compose for Redis, Weather Company</td>
-                                    <td style="color: darkred;">&#x2718;</td>
-                                    <td style="color: darkred;">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
                                 </tr>
                             
                                 <tr>
@@ -174,8 +184,8 @@
                                     -->
                                     <td>Data Science Experience</td>
                                     <td>Cloudant, Object Storage</td>
-                                    <td style="color: darkred;">&#x2718;</td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
+                                    <td class="icon red">&#x2718;</td>
+                                    <td class="icon green">&#x2714;</td>
                                 </tr>
                             
                                 <tr>
@@ -191,8 +201,8 @@
                                     -->
                                     <td>Data Science Experience</td>
                                     <td>Apache Spark, Object Store, Db2 on Cloud</td>
-                                    <td style="color: darkred;">&#x2718;</td>
-                                    <td style="color: darkred;">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
                                 </tr>
                             
                                 <tr>
@@ -208,8 +218,8 @@
                                     -->
                                     <td>Data Science Experience</td>
                                     <td>Apache Spark, Object Store</td>
-                                    <td style="color: darkred;">&#x2718;</td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
+                                    <td class="icon red">&#x2718;</td>
+                                    <td class="icon green">&#x2714;</td>
                                 </tr>
                             
                                 <tr>
@@ -225,8 +235,8 @@
                                     -->
                                     <td>Data Science Experience</td>
                                     <td>Tone Analyzer, Natural Language Understanding, Visual Recognition</td>
-                                    <td style="color: darkred;">&#x2718;</td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
+                                    <td class="icon red">&#x2718;</td>
+                                    <td class="icon green">&#x2714;</td>
                                 </tr>
                             
                                 <tr>
@@ -242,8 +252,8 @@
                                     -->
                                     <td>Data Science Experience</td>
                                     <td>Natural Language Understanding, Apache Spark, Object Storage</td>
-                                    <td style="color: darkred;">&#x2718;</td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
+                                    <td class="icon red">&#x2718;</td>
+                                    <td class="icon green">&#x2714;</td>
                                 </tr>
                             
                                 <tr>
@@ -259,8 +269,8 @@
                                     -->
                                     <td>Data Science Experience</td>
                                     <td>Apache Spark, Object Storage, Node SDK</td>
-                                    <td style="color: darkred;">&#x2718;</td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
+                                    <td class="icon red">&#x2718;</td>
+                                    <td class="icon green">&#x2714;</td>
                                 </tr>
                             
                                 <tr>
@@ -276,8 +286,8 @@
                                     -->
                                     <td>Data Science Experience</td>
                                     <td>Natural Language Understanding, Apache Spark, Object Storage</td>
-                                    <td style="color: darkred;">&#x2718;</td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
+                                    <td class="icon red">&#x2718;</td>
+                                    <td class="icon green">&#x2714;</td>
                                 </tr>
                             
                                 <tr>
@@ -293,8 +303,8 @@
                                     -->
                                     <td>CloudFoundry</td>
                                     <td>Discovery, Cloudant</td>
-                                    <td style="color: darkred;">&#x2718;</td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
+                                    <td class="icon red">&#x2718;</td>
+                                    <td class="icon green">&#x2714;</td>
                                 </tr>
                             
                                 <tr>
@@ -310,8 +320,8 @@
                                     -->
                                     <td>CloudFoundry</td>
                                     <td>Discovery</td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
+                                    <td class="icon green">&#x2714;</td>
+                                    <td class="icon green">&#x2714;</td>
                                 </tr>
                             
                                 <tr>
@@ -327,8 +337,8 @@
                                     -->
                                     <td>CloudFoundry</td>
                                     <td>Discovery</td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
+                                    <td class="icon green">&#x2714;</td>
+                                    <td class="icon green">&#x2714;</td>
                                 </tr>
                             
                                 <tr>
@@ -344,8 +354,8 @@
                                     -->
                                     <td></td>
                                     <td></td>
-                                    <td style="color: darkred;">&#x2718;</td>
-                                    <td style="color: darkred;">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
                                 </tr>
                             
                                 <tr>
@@ -361,8 +371,8 @@
                                     -->
                                     <td>Mobile</td>
                                     <td></td>
-                                    <td style="color: darkred;">&#x2718;</td>
-                                    <td style="color: darkred;">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
                                 </tr>
                             
                                 <tr>
@@ -378,8 +388,8 @@
                                     -->
                                     <td>Nimbix</td>
                                     <td></td>
-                                    <td style="color: darkred;">&#x2718;</td>
-                                    <td style="color: darkred;">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
                                 </tr>
                             
                                 <tr>
@@ -395,8 +405,8 @@
                                     -->
                                     <td>Nimbix</td>
                                     <td></td>
-                                    <td style="color: darkred;">&#x2718;</td>
-                                    <td style="color: darkred;">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
                                 </tr>
                             
                                 <tr>
@@ -412,8 +422,8 @@
                                     -->
                                     <td></td>
                                     <td></td>
-                                    <td style="color: darkred;">&#x2718;</td>
-                                    <td style="color: darkred;">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
                                 </tr>
                             
                                 <tr>
@@ -429,8 +439,8 @@
                                     -->
                                     <td>CloudFoundry, Mobile</td>
                                     <td>Visual Recognition</td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
-                                    <td style="color: darkred;">&#x2718;</td>
+                                    <td class="icon green">&#x2714;</td>
+                                    <td class="icon red">&#x2718;</td>
                                 </tr>
                             
                                 <tr>
@@ -446,8 +456,8 @@
                                     -->
                                     <td>CloudFoundry</td>
                                     <td>Visual Recognition, Natural Language Understanding, Speech-to-Text, Tone Analyzer</td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
-                                    <td style="color: darkred;">&#x2718;</td>
+                                    <td class="icon green">&#x2714;</td>
+                                    <td class="icon red">&#x2718;</td>
                                 </tr>
                             
                                 <tr>
@@ -463,8 +473,8 @@
                                     -->
                                     <td>Data Science Experience</td>
                                     <td>Apache Spark</td>
-                                    <td style="color: darkred;">&#x2718;</td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
+                                    <td class="icon red">&#x2718;</td>
+                                    <td class="icon green">&#x2714;</td>
                                 </tr>
                             
                                 <tr>
@@ -480,8 +490,8 @@
                                     -->
                                     <td>Data Science Experience</td>
                                     <td>Apache Spark</td>
-                                    <td style="color: darkred;">&#x2718;</td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
+                                    <td class="icon red">&#x2718;</td>
+                                    <td class="icon green">&#x2714;</td>
                                 </tr>
                             
                                 <tr>
@@ -497,8 +507,8 @@
                                     -->
                                     <td>CloudFoundry</td>
                                     <td>Compose for MongoDB, Loopback</td>
-                                    <td style="color: darkred;">&#x2718;</td>
-                                    <td style="color: darkred;">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
                                 </tr>
                             
                                 <tr>
@@ -514,8 +524,8 @@
                                     -->
                                     <td></td>
                                     <td>API Connect, Secure Gateway</td>
-                                    <td style="color: darkred;">&#x2718;</td>
-                                    <td style="color: darkred;">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
                                 </tr>
                             
                                 <tr>
@@ -531,8 +541,8 @@
                                     -->
                                     <td>CloudFoundry, OpenWhisk</td>
                                     <td></td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
-                                    <td style="color: darkred;">&#x2718;</td>
+                                    <td class="icon green">&#x2714;</td>
+                                    <td class="icon red">&#x2718;</td>
                                 </tr>
                             
                                 <tr>
@@ -548,8 +558,8 @@
                                     -->
                                     <td>Kubernetes, OpenWhisk</td>
                                     <td></td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
-                                    <td style="color: darkred;">&#x2718;</td>
+                                    <td class="icon green">&#x2714;</td>
+                                    <td class="icon red">&#x2718;</td>
                                 </tr>
                             
                                 <tr>
@@ -565,8 +575,8 @@
                                     -->
                                     <td>Kubernetes</td>
                                     <td></td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
+                                    <td class="icon green">&#x2714;</td>
+                                    <td class="icon green">&#x2714;</td>
                                 </tr>
                             
                                 <tr>
@@ -582,8 +592,8 @@
                                     -->
                                     <td>Kubernetes</td>
                                     <td>Compose for MySQL</td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
-                                    <td style="color: darkred;">&#x2718;</td>
+                                    <td class="icon green">&#x2714;</td>
+                                    <td class="icon red">&#x2718;</td>
                                 </tr>
                             
                                 <tr>
@@ -600,8 +610,8 @@
                                     -->
                                     <td>Kubernetes</td>
                                     <td></td>
-                                    <td style="color: darkred;">&#x2718;</td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
+                                    <td class="icon red">&#x2718;</td>
+                                    <td class="icon green">&#x2714;</td>
                                 </tr>
                             
                                 <tr>
@@ -617,8 +627,8 @@
                                     -->
                                     <td>Kubernetes</td>
                                     <td></td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
+                                    <td class="icon green">&#x2714;</td>
+                                    <td class="icon green">&#x2714;</td>
                                 </tr>
                             
                                 <tr>
@@ -634,8 +644,8 @@
                                     -->
                                     <td>Kubernetes</td>
                                     <td>Compose for PostgreSQL</td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
-                                    <td style="color: darkred;">&#x2718;</td>
+                                    <td class="icon green">&#x2714;</td>
+                                    <td class="icon red">&#x2718;</td>
                                 </tr>
                             
                                 <tr>
@@ -651,8 +661,8 @@
                                     -->
                                     <td>Kubernetes</td>
                                     <td></td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
+                                    <td class="icon green">&#x2714;</td>
+                                    <td class="icon green">&#x2714;</td>
                                 </tr>
                             
                                 <tr>
@@ -668,8 +678,8 @@
                                     -->
                                     <td>Kubernetes</td>
                                     <td></td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
+                                    <td class="icon green">&#x2714;</td>
+                                    <td class="icon green">&#x2714;</td>
                                 </tr>
                             
                                 <tr>
@@ -685,8 +695,8 @@
                                     -->
                                     <td>Kubernetes</td>
                                     <td></td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
+                                    <td class="icon green">&#x2714;</td>
+                                    <td class="icon green">&#x2714;</td>
                                 </tr>
                             
                                 <tr>
@@ -703,8 +713,8 @@
                                     -->
                                     <td>OpenWhisk</td>
                                     <td>Cloudant, Object Store, SendGrid</td>
-                                    <td style="color: darkred;">&#x2718;</td>
-                                    <td style="color: darkred;">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
                                 </tr>
                             
                                 <tr>
@@ -720,8 +730,8 @@
                                     -->
                                     <td>OpenWhisk</td>
                                     <td>Compose for MySQL</td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
-                                    <td style="color: darkred;">&#x2718;</td>
+                                    <td class="icon green">&#x2714;</td>
+                                    <td class="icon red">&#x2718;</td>
                                 </tr>
                             
                                 <tr>
@@ -737,8 +747,8 @@
                                     -->
                                     <td>OpenWhisk</td>
                                     <td>API Connect</td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
-                                    <td style="color: darkred;">&#x2718;</td>
+                                    <td class="icon green">&#x2714;</td>
+                                    <td class="icon red">&#x2718;</td>
                                 </tr>
                             
                                 <tr>
@@ -754,8 +764,8 @@
                                     -->
                                     <td>OpenWhisk</td>
                                     <td>MessageHub</td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
-                                    <td style="color: darkred;">&#x2718;</td>
+                                    <td class="icon green">&#x2714;</td>
+                                    <td class="icon red">&#x2718;</td>
                                 </tr>
                             
                                 <tr>
@@ -771,8 +781,8 @@
                                     -->
                                     <td>Mainframe</td>
                                     <td></td>
-                                    <td style="color: darkred;">&#x2718;</td>
-                                    <td style="color: darkred;">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
                                 </tr>
                             
                                 <tr>
@@ -788,8 +798,8 @@
                                     -->
                                     <td>Mainframe</td>
                                     <td></td>
-                                    <td style="color: darkred;">&#x2718;</td>
-                                    <td style="color: darkred;">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
                                 </tr>
                             
                                 <tr>
@@ -805,8 +815,8 @@
                                     -->
                                     <td>Mainframe</td>
                                     <td></td>
-                                    <td style="color: darkred;">&#x2718;</td>
-                                    <td style="color: darkred;">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
                                 </tr>
                             
                                 <tr>
@@ -822,8 +832,8 @@
                                     -->
                                     <td>Mainframe</td>
                                     <td></td>
-                                    <td style="color: darkred;">&#x2718;</td>
-                                    <td style="color: darkred;">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
                                 </tr>
                             
                                 <tr>
@@ -839,8 +849,8 @@
                                     -->
                                     <td>Mainframe</td>
                                     <td></td>
-                                    <td style="color: darkred;">&#x2718;</td>
-                                    <td style="color: darkred;">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
                                 </tr>
                             
                                 <tr>
@@ -857,8 +867,8 @@
                                     -->
                                     <td>Mainframe</td>
                                     <td></td>
-                                    <td style="color: darkred;">&#x2718;</td>
-                                    <td style="color: darkred;">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
                                 </tr>
                             
                                 <tr>
@@ -874,8 +884,8 @@
                                     -->
                                     <td>Mainframe</td>
                                     <td></td>
-                                    <td style="color: darkred;">&#x2718;</td>
-                                    <td style="color: darkred;">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
                                 </tr>
                             
                                 <tr>
@@ -891,8 +901,8 @@
                                     -->
                                     <td>Hyperledger Composer</td>
                                     <td></td>
-                                    <td style="color: darkred;">&#x2718;</td>
-                                    <td style="color: darkred;">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
                                 </tr>
                             
                                 <tr>
@@ -908,8 +918,8 @@
                                     -->
                                     <td>Hyperledger Composer</td>
                                     <td></td>
-                                    <td style="color: darkred;">&#x2718;</td>
-                                    <td style="color: darkred;">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
                                 </tr>
                             
                                 <tr>
@@ -925,8 +935,8 @@
                                     -->
                                     <td>Hyperledger Composer</td>
                                     <td></td>
-                                    <td style="color: darkred;">&#x2718;</td>
-                                    <td style="color: darkred;">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
                                 </tr>
                             
                                 <tr>
@@ -942,8 +952,8 @@
                                     -->
                                     <td>Hyperledger Composer</td>
                                     <td></td>
-                                    <td style="color: darkred;">&#x2718;</td>
-                                    <td style="color: darkred;">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
                                 </tr>
                             
                                 <tr>
@@ -959,8 +969,8 @@
                                     -->
                                     <td>Hyperledger Composer</td>
                                     <td></td>
-                                    <td style="color: darkred;">&#x2718;</td>
-                                    <td style="color: darkred;">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
                                 </tr>
                             
                                 <tr>
@@ -976,8 +986,8 @@
                                     -->
                                     <td>Hyperledger Composer</td>
                                     <td></td>
-                                    <td style="color: darkred;">&#x2718;</td>
-                                    <td style="color: darkred;">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
                                 </tr>
                             
                                 <tr>
@@ -993,8 +1003,8 @@
                                     -->
                                     <td>CloudFoundry</td>
                                     <td>CloudFoundry, Investment Portfolio, Portfolio Optimization</td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
-                                    <td style="color: darkred;">&#x2718;</td>
+                                    <td class="icon green">&#x2714;</td>
+                                    <td class="icon red">&#x2718;</td>
                                 </tr>
                             
                                 <tr>
@@ -1010,8 +1020,8 @@
                                     -->
                                     <td>CloudFoundry</td>
                                     <td>Investment Portfolio, Predictive Market Scenarios, Simulated Instrument Analytics</td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
-                                    <td style="color: darkred;">&#x2718;</td>
+                                    <td class="icon green">&#x2714;</td>
+                                    <td class="icon red">&#x2718;</td>
                                 </tr>
                             
                                 <tr>
@@ -1027,8 +1037,8 @@
                                     -->
                                     <td>CloudFoundry</td>
                                     <td>Conversation, Cloudant, Investment Portfolio, Simulated Instrument Analytics</td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
-                                    <td style="color: darkred;">&#x2718;</td>
+                                    <td class="icon green">&#x2714;</td>
+                                    <td class="icon red">&#x2718;</td>
                                 </tr>
                             
                                 <tr>
@@ -1044,8 +1054,8 @@
                                     -->
                                     <td>CloudFoundry</td>
                                     <td>Investment Portfolio</td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
-                                    <td style="color: darkred;">&#x2718;</td>
+                                    <td class="icon green">&#x2714;</td>
+                                    <td class="icon red">&#x2718;</td>
                                 </tr>
                             
                                 <tr>
@@ -1061,8 +1071,8 @@
                                     -->
                                     <td>IoT Platform</td>
                                     <td></td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
+                                    <td class="icon green">&#x2714;</td>
+                                    <td class="icon green">&#x2714;</td>
                                 </tr>
                             
                                 <tr>
@@ -1078,8 +1088,8 @@
                                     -->
                                     <td>IoT Platform</td>
                                     <td>Weather Company Data, Streaming Analytics</td>
-                                    <td style="color: darkred;">&#x2718;</td>
-                                    <td style="color: darkred;">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
                                 </tr>
                             
                                 <tr>
@@ -1095,8 +1105,8 @@
                                     -->
                                     <td>Data Science Experience</td>
                                     <td>Object Store, Apache Spark, Node SDK, DB2 on Cloud</td>
-                                    <td style="color: darkred;">&#x2718;</td>
-                                    <td style="color: darkred;">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
                                 </tr>
                             
                                 <tr>
@@ -1112,8 +1122,8 @@
                                     -->
                                     <td>IoT Platform</td>
                                     <td>Cloudant, Node SDK</td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
+                                    <td class="icon green">&#x2714;</td>
+                                    <td class="icon green">&#x2714;</td>
                                 </tr>
                             
                                 <tr>
@@ -1129,8 +1139,8 @@
                                     -->
                                     <td>IoT Platform</td>
                                     <td>Cloudant, Node SDK, Availability Monitoring</td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
-                                    <td style="color: darkred;">&#x2718;</td>
+                                    <td class="icon green">&#x2714;</td>
+                                    <td class="icon red">&#x2718;</td>
                                 </tr>
                             
                                 <tr>
@@ -1146,8 +1156,8 @@
                                     -->
                                     <td>OpenWhisk, IoT Platform</td>
                                     <td>Conversation, Speech-to-Text</td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
-                                    <td style="color: darkred;">&#x2718;</td>
+                                    <td class="icon green">&#x2714;</td>
+                                    <td class="icon red">&#x2718;</td>
                                 </tr>
                             
                                 <tr>
@@ -1163,8 +1173,8 @@
                                     -->
                                     <td>OpenWhisk, IoT Platform</td>
                                     <td>Cloudant, SendGrid</td>
-                                    <td style="color: darkred;">&#x2718;</td>
-                                    <td style="color: darkred;">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
                                 </tr>
                             
                                 <tr>
@@ -1180,8 +1190,8 @@
                                     -->
                                     <td>Data Science Experience</td>
                                     <td>Cloudant, Object Storage, Apache Spark, Conversation</td>
-                                    <td style="color: darkred;">&#x2718;</td>
-                                    <td style="color: darkred;">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
+                                    <td class="icon red">&#x2718;</td>
                                 </tr>
                             
                                 <tr>
@@ -1197,8 +1207,8 @@
                                     -->
                                     <td>CloudFoundry</td>
                                     <td>Mobile App ID, Weather Company Data, Object Storage, Visual Recognition, Mobile Push Notifications</td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
-                                    <td style="color: darkred;">&#x2718;</td>
+                                    <td class="icon green">&#x2714;</td>
+                                    <td class="icon red">&#x2718;</td>
                                 </tr>
                             
                                 <tr>
@@ -1214,8 +1224,8 @@
                                     -->
                                     <td>CloudFoundry</td>
                                     <td>Conversation, Natural Language Understanding, Speech-to-Text, Text-to-Speech</td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
+                                    <td class="icon green">&#x2714;</td>
+                                    <td class="icon green">&#x2714;</td>
                                 </tr>
                             
                                 <tr>
@@ -1231,8 +1241,8 @@
                                     -->
                                     <td>CloudFoundry</td>
                                     <td>Alert Notification, Auto-Scaling</td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
-                                    <td style="color: darkred;">&#x2718;</td>
+                                    <td class="icon green">&#x2714;</td>
+                                    <td class="icon red">&#x2718;</td>
                                 </tr>
                             
                                 <tr>
@@ -1248,8 +1258,8 @@
                                     -->
                                     <td>CloudFoundry</td>
                                     <td>Natural Language Understanding</td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
-                                    <td style="color: darkgreen;">&#x2714;</td>
+                                    <td class="icon green">&#x2714;</td>
+                                    <td class="icon green">&#x2714;</td>
                                 </tr>
                             
                         </tbody>
