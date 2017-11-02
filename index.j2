@@ -27,7 +27,17 @@
             .icon {
                 height: 22px;
                 margin-top: -2px;
-                padding-top: -2px;
+            }
+            .icon.green,
+            .icon.red {
+                font-size: 22px;
+                line-height: 20px;
+            }
+            .icon.green {
+                color: darkgreen;
+            }
+            .icon.red {
+                color: darkred;
             }
         </style>
     </head>
@@ -72,8 +82,8 @@
                                     -->
                                     <td>{{ journey['Runtimes'] }}</td>
                                     <td>{{ journey['Services'].strip() }}</td>
-                                    <td style="color: {{ 'darkgreen' if journey['Deploy to Bluemix'] else 'darkred' }};">{{ '&#x2714;' if journey['Deploy to Bluemix'] else '&#x2718;' }}</td>
-                                    <td style="color: {{ 'darkgreen' if journey['Free Tier Friendly'] else 'darkred' }};">{{ '&#x2714;' if journey['Free Tier Friendly'] else '&#x2718;' }}</td>
+                                    <td class="icon {{ 'green' if journey['Deploy to Bluemix'] else 'red' }}">{{ '&#x2714;' if journey['Deploy to Bluemix'] else '&#x2718;' }}</td>
+                                    <td class="icon {{ 'green' if journey['Free Tier Friendly'] else 'red' }}">{{ '&#x2714;' if journey['Free Tier Friendly'] else '&#x2718;' }}</td>
                                 </tr>
                             {% endfor %}
                         </tbody>
