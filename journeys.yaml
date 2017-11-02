@@ -316,6 +316,19 @@ journeys:
     Services: Apache Spark
     Deploy to Bluemix: false
     Free Tier Friendly: true
+  - slug: perform-a-machine-learning-exercise
+    Category: CDA
+    PWG: Spark Technology Center
+    Journey Title: Perform a machine learning exercise
+    Code Repo: https://github.com/IBM/SystemML_Usage
+    Youtube Link: https://www.youtube.com/watch?v=BaZPshqBFHg
+    Journey URL: https://developer.ibm.com/code/patterns/perform-a-machine-learning-exercise/
+    OM Docs Repo: ''
+    Publishing Repo: ''
+    Runtimes: Data Science Experience
+    Services: Apache Spark
+    Deploy to Bluemix: false
+    Free Tier Friendly: true
   - slug: create-rest-apis-using-loopback
     Category: CI
     PWG: API Connect
