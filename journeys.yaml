@@ -223,17 +223,17 @@ journeys:
     Services: ''
     Deploy to Bluemix: false
     Free Tier Friendly: false
-  - slug: tensorflow-hangul-translation
+  - slug: create-mobile-handwritten-hangul-translation-app
     Category: CDA
     PWG: Open Tech
-    Journey Title: Tensorflow Hangul Translation
+    Journey Title: Create a Mobile Handwritten Hangul Translation App
     Code Repo: https://github.com/IBM/tensorflow-hangul-recognition
     Youtube Link: https://www.youtube.com/watch?v=Ynusw4RcyRY
-    Journey URL: https://developer.ibm.com/code/journey/tensorflow-hangul-translation
+    Journey URL: https://developer.ibm.com/code/patterns/create-mobile-handwritten-hangul-translation-app/
     OM Docs Repo: ''
     Publishing Repo: ''
     Runtimes: Mobile
-    Services: ''
+    Services: 'Language Translator'
     Deploy to Bluemix: false
     Free Tier Friendly: false
   - slug: accelerate-training-of-machine-learning-algorithms
@@ -259,19 +259,6 @@ journeys:
     OM Docs Repo: ''
     Publishing Repo: ''
     Runtimes: Nimbix
-    Services: ''
-    Deploy to Bluemix: false
-    Free Tier Friendly: false
-  - slug: create-a-recommender
-    Category: CDA
-    PWG: Spark
-    Journey Title: Create a recommender
-    Code Repo: https://github.com/IBM/elasticsearch-spark-recommender
-    Youtube Link: https://www.youtube.com/watch?v=MJUO0CLNbB0
-    Journey URL: https://developer.ibm.com/code/journey/create-a-recommender
-    OM Docs Repo: ''
-    Publishing Repo: ''
-    Runtimes: ''
     Services: ''
     Deploy to Bluemix: false
     Free Tier Friendly: false
