@@ -77,7 +77,7 @@
                                     <td>{% if journey['Code Repo'] %}<a href="{{ journey['Code Repo'] }}"><img class="icon" alt="GitHub repository" src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" /></a>{% endif %}</td>
                                     <td>{% if journey['Youtube Link'] %}<a href="{{ journey['Youtube Link'] }}"><img class="icon" alt="YouTube video" src="https://www.youtube.com/yt/about/media/images/brand-resources/icons/YouTube_icon_full-color.svg" /></a>{% endif %}</td>
                                     <td>{% if journey['Journey URL'] %}<a href="{{ journey['Journey URL'] }}"><img class="icon" alt="Published journey" src="https://s.w.org/about/images/logos/wordpress-logo-notext-rgb.png" /></a>{% endif %}</td>
-                                    <td>{% if journey['Code Repo'] %}<a href="https://travis-ci.org/IBM/{{ journey['Code Repo'] }}"><img class="icon" alt="Travis CI" src="https://travis-ci.org/IBM/{{ journey['Code Repo'] }}.svg?branch=master" /></a>{% endif %}</td>
+                                    <td>{% if journey['Code Repo'] %}<a href="https://travis-ci.org/{{ '/'.join(journey['Code Repo'].rstrip('/').rsplit('/')[-2:]) }}"><img class="icon" alt="Travis CI" src="https://travis-ci.org/{{ '/'.join(journey['Code Repo'].rstrip('/').rsplit('/')[-2:]) }}.svg?branch=master" /></a>{% endif %}</td>
                                     <!-- Put these back in when the data is filled in
                                     <td><a href="{{ journey['OM Docs Repo'] }}">OM Docs</a></td>
                                     <td><a href="{{ journey['Publishing Repo'] }}">Publishing</a></td>
