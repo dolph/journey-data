@@ -319,7 +319,8 @@ journeys:
   - slug: cloud-host-graph-database-using-kubernetes
     Category: CI
     PWG: Containers
-    Journey Title: Quickly and easily deploy OrientDB as a container using Kubernetes
+    Journey Title: >
+      Quickly and easily deploy OrientDB as a container using Kubernetes
     Code Repo: https://github.com/IBM/deploy-graph-db-container
     Youtube Link: https://www.youtube.com/watch?v=bG3xynJs0T8
     Journey URL: https://developer.ibm.com/code/patterns/cloud-host-graph-database-using-kubernetes/
