@@ -223,6 +223,19 @@ journeys:
     Services: ''
     Deploy to Bluemix: false
     Free Tier Friendly: false
+  - slug: cloud-host-graph-database-using-kubernetes
+    Category: CDA
+    PWG: Open Tech
+    Journey Title: Cloud-host a graph database using Kubernetes
+    Code Repo: https://github.com/IBM/deploy-graph-db-container
+    Youtube Link: https://www.youtube.com/watch?v=bG3xynJs0T8
+    Journey URL: https://developer.ibm.com/code/patterns/cloud-host-graph-database-using-kubernetes
+    OM Docs Repo: ''
+    Publishing Repo: ''
+    Runtimes: 'Kubernetes'
+    Services: ''
+    Deploy to Bluemix: false
+    Free Tier Friendly: true
   - slug: create-mobile-handwritten-hangul-translation-app
     Category: CDA
     PWG: Open Tech
