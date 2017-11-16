@@ -329,6 +329,19 @@ journeys:
     Services: Apache Spark
     Deploy to Bluemix: false
     Free Tier Friendly: true
+  - slug: use-spark-sql-to-access-nosql-hbase-tables
+    Category: CDA
+    PWG: Spark Technology Center
+    Journey Title: Use Spark SQL to access NoSQL HBase tables
+    Code Repo: https://github.com/IBM/sparksql-for-hbase
+    Youtube Link: https://www.youtube.com/watch?v=E1GPJMn0qF0
+    Journey URL: https://developer.ibm.com/code/patterns/use-spark-sql-to-access-nosql-hbase-tables/
+    OM Docs Repo: ''
+    Publishing Repo: ''
+    Runtimes: ''
+    Services: Apache Spark
+    Deploy to Bluemix: false
+    Free Tier Friendly: false
   - slug: cloud-host-graph-database-using-kubernetes
     Category: CI
     PWG: Containers
@@ -658,6 +671,19 @@ journeys:
     Services: ''
     Deploy to Bluemix: false
     Free Tier Friendly: false
+  - slug: industrial-visual-analysis
+    Category: ETI
+    PWG: IoT
+    Journey Title: Industrial Visual Analysis
+    Code Repo: https://github.com/IBM/Predictive-Industrial-Visual-Analysis
+    Youtube Link: https://www.youtube.com/watch?v=43-TvCGHx1U
+    Journey URL: https://developer.ibm.com/code/patterns/industrial-visual-analysis
+    OM Docs Repo: ''
+    Publishing Repo: ''
+    Runtimes: 'OpenWhisk'
+    Services: 'Cloudant, Visual Recognition'
+    Deploy to Bluemix: false
+    Free Tier Friendly: true
   - slug: create-a-to-do-list-app-using-blockchain
     Category: ETI
     PWG: Blockchain
